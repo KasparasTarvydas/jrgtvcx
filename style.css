@@ -1,37 +1,39 @@
 body{
-    background-image: url(https://static.vecteezy.com/system/resources/previews/033/886/555/large_2x/christmas-or-new-year-red-background-with-fir-decor-ai-generated-photo.jpg);
-    background-repeat:no-repeat;
-    background-size: cover;
+    background-image: url(https://www.shutterstock.com/image-vector/christmas-seamless-pattern-tree-twigs-600nw-2521546645.jpg);
+    background-size: 40rem;
     background-position-x: center;
-    background-color: rgb(139, 6, 6);
 }
 .header {
     margin: auto;
-    background-color: green;
     padding: 10px;
     width: 600px;
-    border: 5px, black solid;
-    border-radius: 50%;
-    box-shadow: 0 0 1rem 3px rgb(0, 193, 0);
+    border-radius: 10px;
+    box-shadow: 0 0 0.7rem 1px rgba(0, 193, 0, 0.97);
     text-align: center;
-    color: wheat;
+    background-color: rgba(0, 0, 0, 0.397);
+    color: rgb(255, 255, 255);
     margin-bottom: 25px;
 }
-.box {
+.s {
+    display: grid;
+    grid-template-columns: auto 30% auto;
+}
+img {
+    height: 13rem;
+    display: block;
     margin: auto;
-    background-color: rgb(215, 21, 31);
-    padding: 10px;
-    width: 25rem;
-    height: 15rem;
-    border: 5px, black solid;
+    width: 20rem;
+    border: 2px, rgba(0, 0, 0, 0.368) solid;
     border-radius: 3rem;
-    box-shadow: 0 0 0.7rem 1px rgb(0, 193, 0);
-    text-align: center;
-    color: wheat;
+    color: rgb(255, 255, 255);
+    box-shadow: 0 0 0.8rem 3px rgb(253, 12, 24);
 }
 
-.boxes {
-    display: grid;
-    grid-template-columns: 2fr 2fr;
-    gap: 15px;
+.frame {
+    border: 2px, rgba(0, 0, 0, 0.368) solid;
+    border-radius: 3rem;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    background-color: rgba(0, 128, 0, 0.751);
+    box-shadow: 0 0 0.8rem 3px rgb(253, 12, 24);
 }
